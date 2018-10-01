@@ -104,6 +104,8 @@ function submitHtmlFunction(id) {
 
     outputDiv.innerText = outputString;
 
+    return false;
+
 }
 
 /*

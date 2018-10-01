@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>David Godfrey Mean Color Test</title>
+    <script src="JS/color.js"></script>
+    <style type="text/css">
+        body{
+            font-family: Arial;
+            font-size: 14px;
+        }
+
+        #colorDisplay{
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Please supply two 6-digitl color strings. </p>
+    <form action="#">
+        Color 1 #:<br/>
+        <input type="text" name="color1" id="color1"><br/><br />
+        Color 2 #:<br/>
+        <input type="text" name="color2" id="color2"><br /><br />
+        <input type="submit" value="Submit" onclick="javascript: return submitColorFunction()"><br /><br />
+    </form>
+    <div id="colorInfo">
+
+    </div>
+    <div id="colorDisplay">
+
+    </div>
+</body>
+</html>
